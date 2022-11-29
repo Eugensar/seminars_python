@@ -6,9 +6,9 @@
 
 seasons = {1 : 'winter', 2 : 'spring', 3 : 'summer', 4 : 'autumn'}
 month = int(input("Введите номер месяца от 1 до 12 -  "))
-if month ==1 or month == 12 or month == 2:
+if month == 1 or month == 12 or month == 2:
     print(seasons.get(1))
-elif month == 3 or month == 4 or month ==5:
+elif month == 3 or month == 4 or month == 5:
     print(seasons.get(2))
 elif month == 6 or month == 7 or month == 8:
     print(seasons.get(3))
