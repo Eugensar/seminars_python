@@ -17,5 +17,6 @@ line = "hello world".split(' ')
 for i in line:
     line2 = int_func(i)
 
+
 print(line2)
 
